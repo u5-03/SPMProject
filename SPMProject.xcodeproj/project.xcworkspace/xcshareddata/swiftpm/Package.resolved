@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftextensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/u5-03/SwiftExtensions",
+      "state" : {
+        "revision" : "6d5905622cef57cb7aaa39785930b7fb4e9976c7",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swiftgenplugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftGen/SwiftGenPlugin",
+      "state" : {
+        "revision" : "879b85a470cacd70c19e22eb7e11a3aed66f4068",
+        "version" : "6.6.2"
+      }
+    }
+  ],
+  "version" : 2
+}

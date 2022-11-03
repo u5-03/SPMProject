@@ -1,0 +1,2 @@
+open:
+	open ./SPMProject.xcodeproj
