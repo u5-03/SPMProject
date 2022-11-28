@@ -1,0 +1,13 @@
+input_dir: Sources/${TARGET_NAME}/Resources
+output_dir: Sources/${TARGET_NAME}/Generated
+
+xcassets:
+  - inputs:
+      - ImageAssets.xcassets
+    outputs:
+      - templateName: swift5
+        output: ImageAssets.swift
+        params:
+          forceProvidesNamespaces: true
+          publicAccess: false
+          enumName: ImageAssets
