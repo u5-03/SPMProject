@@ -10,7 +10,7 @@ import Foundation
 struct BasePackage {
     let text = "Hello, World!"
 
-    func test() {
+    public func printMethod() {
         print("Test") // This must be warned by SwiftLint
     }
 }

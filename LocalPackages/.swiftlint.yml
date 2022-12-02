@@ -1,4 +1,5 @@
-
+excluded:
+  - Generated/
 included:
   - Sources/
   - Tests/

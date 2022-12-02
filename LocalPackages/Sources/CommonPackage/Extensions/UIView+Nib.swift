@@ -20,4 +20,8 @@ public extension UIView {
             bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
     }
+
+    public func printMethod() {
+        print("Test") // This must be warned by SwiftLint
+    }
 }

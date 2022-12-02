@@ -35,4 +35,8 @@ public final class FunctionBView: UIView {
     private func commonInit() {
         loadNib(bundle: .module)
     }
+
+    public func printMethodFB() {
+        print("Test") // This must be warned by SwiftLint
+    }
 }

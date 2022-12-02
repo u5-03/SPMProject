@@ -37,6 +37,10 @@ public final class FunctionTableView: UITableView {
         register(FunctionTableCell.nib(bundle: .module), forCellReuseIdentifier: FunctionTableCell.reuseIdentifier)
         rowHeight = 120
     }
+
+    public func printMethodFC() {
+        print("Test") // This must be warned by SwiftLint
+    }
 }
 
 extension FunctionTableView: UITableViewDataSource {

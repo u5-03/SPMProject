@@ -11,6 +11,10 @@ import CommonPackage
 public struct FunctionAView: View {
     public init() {}
 
+    public func printMethod() {
+        print("Test") // This must be warned by SwiftLint
+    }
+
     public var body: some View {
         VStack {
             ImageAssets.functionAImage.swiftUIImage
